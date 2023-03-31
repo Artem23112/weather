@@ -1,0 +1,7 @@
+.weather-now {
+    display: none;
+
+    &.active {
+        display: inline-block;
+    }
+}

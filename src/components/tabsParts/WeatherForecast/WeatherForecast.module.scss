@@ -1,0 +1,8 @@
+.weather-forecast {
+    display: none;
+
+    &.active {
+        display: inline-block;
+    }
+
+}

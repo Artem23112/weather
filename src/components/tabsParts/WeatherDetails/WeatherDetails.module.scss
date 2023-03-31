@@ -1,0 +1,6 @@
+.weather-details {
+    display: none;
+    &.active {
+        display: inline-block;
+    }
+}

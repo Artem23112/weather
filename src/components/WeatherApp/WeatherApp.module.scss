@@ -1,0 +1,11 @@
+.weather {
+    display: grid;
+    max-width: 600px;
+    min-height: 440px;
+    grid-template: 40px 1fr / 1fr 1fr;
+    grid-template-areas:
+        "search search"
+        "weather favourite"
+    ;
+
+}
