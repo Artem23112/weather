@@ -1,8 +1,7 @@
-import React from 'react';
-import FavouritePlaces from '../FavouritePlaces/FavouritePlaces';
-import SearchField from '../SearchField/SearchField';
-import styles from './WeatherApp.module.scss';
-import WeatherInfo from '../WeatherInfo/WeatherInfo';
+import FavoritePlaces from '../FavoritePlaces/FavoritePlaces'
+import SearchField from '../SearchField/SearchField'
+import WeatherInfo from '../WeatherInfo/WeatherInfo'
+import styles from './WeatherApp.module.scss'
 
 type tabInfoT = {
 	id: number
@@ -23,7 +22,7 @@ const Weather = (props: WeatherProps) => {
 		<div className={styles['weather']}>
 			<SearchField />
 			<WeatherInfo tabsInfoList={tabsInfo} />
-			<FavouritePlaces />
+			<FavoritePlaces />
 		</div>
 	)
 };
