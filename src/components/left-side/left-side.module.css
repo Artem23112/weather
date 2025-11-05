@@ -1,0 +1,31 @@
+.left-side {
+  flex: 1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side__main {
+  flex: 1;
+}
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 12px 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #000;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  flex: 1;
+  font-size: 18px;
+  line-height: 21px;
+}
+.tab.active {
+  background-color: #000;
+  color: #fff;
+}

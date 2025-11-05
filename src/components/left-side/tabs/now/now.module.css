@@ -1,0 +1,40 @@
+.degrees {
+  display: inline-block;
+  font-size: 70px;
+  line-height: 100%;
+  position: relative;
+  padding-right: 18px;
+  align-self: start;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.degrees-dot {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+/* LEFT */
+
+.left-side__main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather-img {
+  align-self: center;
+  width: 78px;
+}
+
+.bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 15px 15px;
+}
+
+.city-name {
+  font-size: 24px;
+}

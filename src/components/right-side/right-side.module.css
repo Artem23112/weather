@@ -1,0 +1,26 @@
+.right-side {
+  flex: 1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.favorite-city {
+  font-size: 22px;
+}
+
+.favorite-city::first-letter {
+  text-transform: uppercase;
+}
+
+.right-side__favorites {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
